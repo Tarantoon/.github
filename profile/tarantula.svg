@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
   <style>
     .spider-group {
-      animation: float 5s ease-in-out infinite;
+      animation: float 3s ease-in-out infinite;
     }
     .spider {
       font-family: "Fira Code", monospace;
