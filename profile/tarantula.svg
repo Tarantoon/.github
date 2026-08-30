@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <style>
+    .spider-group {
+      animation: float 5s ease-in-out infinite;
+    }
+    .spider {
+      font-family: "Fira Code", monospace;
+      fill: #888888;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .web-thread {
+      stroke: #444444;
+      stroke-width: 1.5;
+      stroke-dasharray: 4, 4;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(15px); }
+    }
+  </style>
+  
+  <g class="spider-group">
+    <!-- The web thread hanging from above the frame -->
+    <line x1="150" y1="-50" x2="150" y2="20" class="web-thread" />
+    
+    <!-- The ASCII Tarantula -->
+    <text x="150" y="20" text-anchor="middle" class="spider" xml:space="preserve">
+      <tspan x="150" dy="1.2em"> ███████       ███████ </tspan>
+      <tspan x="150" dy="1.2em">█     ███████████     █</tspan>
+      <tspan x="150" dy="1.2em">█  █████ █████ █████  █</tspan>
+      <tspan x="150" dy="1.2em">  █   ███████████   █  </tspan>
+      <tspan x="150" dy="1.2em">  █ ███████████████ █  </tspan>
+      <tspan x="150" dy="1.2em">    █             █    </tspan>
+      <tspan x="150" dy="1.2em">    █             █    </tspan>
+    </text>
+  </g>
+</svg>
