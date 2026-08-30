@@ -15,16 +15,24 @@
       stroke-dasharray: 4, 4;
     }
     @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(15px); }
+    0%, 100% { 
+      transform: translateY(0px) scale(1, 1); 
+    }
+    25% { 
+      transform: translateY(7px) scale(1, 1.05); 
+    }
+    50% { 
+      transform: translateY(15px) scale(1, 0.85); 
+    }
+    75% { 
+      transform: translateY(7px) scale(1, 1); 
+    }
     }
   </style>
   
   <g class="spider-group">
-    <!-- The web thread hanging from above the frame -->
-    <line x1="150" y1="-50" x2="150" y2="20" class="web-thread" />
+    <line x1="120" y1="-70" x2="120" y2="70" class="web-thread" />
     
-    <!-- The ASCII Tarantula -->
     <text x="150" y="20" text-anchor="middle" class="spider" xml:space="preserve">
       <tspan x="150" dy="1.2em"> ███████       ███████ </tspan>
       <tspan x="150" dy="1.2em">█     ███████████     █</tspan>
@@ -32,7 +40,7 @@
       <tspan x="150" dy="1.2em">  █   ███████████   █  </tspan>
       <tspan x="150" dy="1.2em">  █ ███████████████ █  </tspan>
       <tspan x="150" dy="1.2em">    █             █    </tspan>
-      <tspan x="150" dy="1.2em">    █             █    </tspan>
+      <tspan x="150" dy="1.2em">    █             █      </tspan>
     </text>
   </g>
 </svg>
