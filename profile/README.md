@@ -45,12 +45,23 @@ Our architecture is deliberate. Our user experiences are rebellious.
 *   **Terminal Utilities** - High-speed CLI tools forged for advanced text manipulation and workflow automation.
 *   **Project Monolith** - An interactive web architecture leveraging next-generation frameworks and high-performance client-side rendering.
 
-### Lab Metrics
+### Operating Parameters
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tarantoon&show_icons=true&theme=transparent&hide_border=true&title_color=888888&icon_color=888888&text_color=888888" alt="Tarantoon Metrics" />
-</div>
+<pre>
+> Initializing Tarantoon Core...
+> Loading studio modules...
 
+[MODULE_NAME]               [STATUS]        [FOCUS_ALLOCATION]
+Creative Architecture       ONLINE          ██████████ 100%
+Terminal Experimentation    ONLINE          ███████░░░  70%
+Narrative Design            COMPILING...    █████████░  90%
+Legacy Maintenance          OFFLINE         ██░░░░░░░░  20%
+
+> Studio resources optimized.
+> Rule-breaking protocols engaged.
+</pre>
+</div>
 
 ---
 
