@@ -69,3 +69,7 @@ Legacy Maintenance          OFFLINE         ██░░░░░░░░  20%
   <i>"Building serious software without taking life too seriously."</i>
 </div>
 
+<div align="center">
+  <img src="./tarantula.svg" alt="Tarantoon ASCII Spider" />
+</div>
+
